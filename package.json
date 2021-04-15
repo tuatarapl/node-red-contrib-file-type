@@ -1,0 +1,19 @@
+{
+	"name": "red-contrib-file-type",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"node-red": {
+		"nodes": {
+			"file-type": "file-type.js"
+		}
+	},
+	"dependencies": {
+		"file-type": "^16.3.0"
+	}
+}
